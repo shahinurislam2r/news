@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+form{
+    width: 950px;
+    height: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+}
+h1{
+    font-size: 30px;
+    margin-top: 30px;
+}
+ul{
+    list-style: none;
+}
+.icon{
+    font-size: 40px;
+    display: inline-block;
+    margin-left:300px;
+}
+ul li .icon a:hover{
+    color: rgb(11, 227, 255);
+    transition: 0.5s;
+}
+
+img{
+    margin-top: 20px;
+    width:950px;
+    height: 600px;
+    margin-bottom: 20px;
+
+}
+.pp{
+    text-align: justify;
+    width: 950px;
+}
+marquee{
+    margin-top: 20px;
+    background-color: antiquewhite;
+    font-size: 20px;
+}
